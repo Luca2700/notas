@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #3e4554;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.titulo{
+  width: 6rem;
+  border: none;
+  outline: none;
+}
+
+input{
+  color: black;
+  font-size: medium;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    border-radius: 5px;
+}
+
+.secciones{
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+#notas {
+  padding: .5rem;
+  background-color: white;
+  border-radius: 5px;
 }
